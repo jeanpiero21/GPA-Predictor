@@ -1,0 +1,65 @@
+2025-09-14 18:50:18,383 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:50:18,667 - __main__ - INFO - Modelo cargado exitosamente
+2025-09-14 18:50:18,676 - __main__ - INFO - Predicción estudiante - GPA: 3.57, Datos: {'Age': 18, 'StudyTimeWeekly': 15.0, 'Absences': 5, 'Tutoring': 1, 'Extracurricular': 1, 'Sports': 1, 'Music': 1, 'Volunteering': 1}
+2025-09-14 18:50:18,889 - __main__ - INFO - Registro estudiante guardado: {'timestamp': datetime.datetime(2025, 9, 14, 18, 50, 18, 889775), 'age': 18, 'study_time': 15.0, 'absences': 5, 'tutoring': 1, 'extracurricular': 1, 'sports': 1, 'music': 1, 'volunteering': 1, 'gpa_predicted': np.float64(3.5708276645553925), 'risk_level': 2}
+2025-09-14 18:50:21,737 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:50:21,841 - __main__ - INFO - Predicción estudiante - GPA: 2.08, Datos: {'Age': 18, 'StudyTimeWeekly': 15.0, 'Absences': 20, 'Tutoring': 1, 'Extracurricular': 1, 'Sports': 1, 'Music': 1, 'Volunteering': 1}
+2025-09-14 18:50:22,167 - __main__ - INFO - Registro estudiante guardado: {'timestamp': datetime.datetime(2025, 9, 14, 18, 50, 22, 167774), 'age': 18, 'study_time': 15.0, 'absences': 20, 'tutoring': 1, 'extracurricular': 1, 'sports': 1, 'music': 1, 'volunteering': 1, 'gpa_predicted': np.float64(2.0810342123133485), 'risk_level': 3}
+2025-09-14 18:50:22,542 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:50:22,602 - __main__ - INFO - Predicción estudiante - GPA: 2.08, Datos: {'Age': 18, 'StudyTimeWeekly': 15.0, 'Absences': 20, 'Tutoring': 1, 'Extracurricular': 1, 'Sports': 1, 'Music': 1, 'Volunteering': 1}
+2025-09-14 18:50:22,928 - __main__ - INFO - Registro estudiante guardado: {'timestamp': datetime.datetime(2025, 9, 14, 18, 50, 22, 928539), 'age': 18, 'study_time': 15.0, 'absences': 20, 'tutoring': 1, 'extracurricular': 1, 'sports': 1, 'music': 1, 'volunteering': 1, 'gpa_predicted': np.float64(2.0810342123133485), 'risk_level': 3}
+2025-09-14 18:50:24,862 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:50:24,935 - __main__ - INFO - Predicción estudiante - GPA: 1.49, Datos: {'Age': 18, 'StudyTimeWeekly': 15.0, 'Absences': 26, 'Tutoring': 1, 'Extracurricular': 1, 'Sports': 1, 'Music': 1, 'Volunteering': 1}
+2025-09-14 18:50:25,015 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:50:25,071 - __main__ - INFO - Predicción estudiante - GPA: 1.49, Datos: {'Age': 18, 'StudyTimeWeekly': 15.0, 'Absences': 26, 'Tutoring': 1, 'Extracurricular': 1, 'Sports': 1, 'Music': 1, 'Volunteering': 1}
+2025-09-14 18:50:25,187 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:50:25,309 - __main__ - INFO - Predicción estudiante - GPA: 1.49, Datos: {'Age': 18, 'StudyTimeWeekly': 15.0, 'Absences': 26, 'Tutoring': 1, 'Extracurricular': 1, 'Sports': 1, 'Music': 1, 'Volunteering': 1}
+2025-09-14 18:50:25,405 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:50:25,507 - __main__ - INFO - Predicción estudiante - GPA: 1.49, Datos: {'Age': 18, 'StudyTimeWeekly': 15.0, 'Absences': 26, 'Tutoring': 1, 'Extracurricular': 1, 'Sports': 1, 'Music': 1, 'Volunteering': 1}
+2025-09-14 18:50:25,587 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:50:25,745 - __main__ - INFO - Predicción estudiante - GPA: 1.49, Datos: {'Age': 18, 'StudyTimeWeekly': 15.0, 'Absences': 26, 'Tutoring': 1, 'Extracurricular': 1, 'Sports': 1, 'Music': 1, 'Volunteering': 1}
+2025-09-14 18:50:27,388 - __main__ - INFO - Registro estudiante guardado: {'timestamp': datetime.datetime(2025, 9, 14, 18, 50, 27, 387924), 'age': 18, 'study_time': 15.0, 'absences': 26, 'tutoring': 1, 'extracurricular': 1, 'sports': 1, 'music': 1, 'volunteering': 1, 'gpa_predicted': np.float64(1.4851168314165308), 'risk_level': 4}
+2025-09-14 18:50:37,398 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:50:41,382 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:50:41,447 - __main__ - INFO - Predicción coordinador - Estudiante: , GPA: 3.57
+2025-09-14 18:50:41,467 - __main__ - INFO - Registro coordinador guardado: {'timestamp': datetime.datetime(2025, 9, 14, 18, 50, 41, 467425), 'coordinator_action': 'manual_analysis', 'student_id': '', 'gpa_predicted': np.float64(3.5708276645553925), 'risk_level': 2}
+2025-09-14 18:50:42,465 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:50:42,538 - __main__ - INFO - Predicción coordinador - Estudiante: , GPA: 3.57
+2025-09-14 18:50:42,556 - __main__ - INFO - Registro coordinador guardado: {'timestamp': datetime.datetime(2025, 9, 14, 18, 50, 42, 556331), 'coordinator_action': 'manual_analysis', 'student_id': '', 'gpa_predicted': np.float64(3.5708276645553925), 'risk_level': 2}
+2025-09-14 18:50:43,814 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:50:48,009 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:51:28,622 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:51:28,695 - __main__ - INFO - Predicción coordinador - Estudiante: , GPA: 3.57
+2025-09-14 18:51:28,715 - __main__ - INFO - Registro coordinador guardado: {'timestamp': datetime.datetime(2025, 9, 14, 18, 51, 28, 715699), 'coordinator_action': 'manual_analysis', 'student_id': '', 'gpa_predicted': np.float64(3.5708276645553925), 'risk_level': 2}
+2025-09-14 18:52:06,260 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:52:13,938 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:52:16,818 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:52:21,103 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:52:22,178 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:52:25,113 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:52:33,885 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:52:36,488 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:54:33,313 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:54:44,167 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:54:47,000 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:54:49,450 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:54:50,009 - __main__ - INFO - Modelo cargado exitosamente
+2025-09-14 18:54:50,023 - __main__ - INFO - Predicción coordinador - Estudiante: , GPA: 3.57
+2025-09-14 18:54:50,042 - __main__ - INFO - Registro coordinador guardado: {'timestamp': datetime.datetime(2025, 9, 14, 18, 54, 50, 42759), 'coordinator_action': 'manual_analysis', 'student_id': '', 'gpa_predicted': np.float64(3.5708276645553925), 'risk_level': 2}
+2025-09-14 18:54:54,590 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:54:54,821 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:54:54,882 - __main__ - INFO - Predicción coordinador - Estudiante: , GPA: 3.57
+2025-09-14 18:54:54,898 - __main__ - INFO - Registro coordinador guardado: {'timestamp': datetime.datetime(2025, 9, 14, 18, 54, 54, 898056), 'coordinator_action': 'manual_analysis', 'student_id': '', 'gpa_predicted': np.float64(3.5708276645553925), 'risk_level': 2}
+2025-09-14 18:54:56,419 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:54:59,786 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:55:02,261 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:55:03,923 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:55:04,001 - __main__ - INFO - Predicción coordinador - Estudiante: , GPA: 3.57
+2025-09-14 18:55:04,025 - __main__ - INFO - Registro coordinador guardado: {'timestamp': datetime.datetime(2025, 9, 14, 18, 55, 4, 25442), 'coordinator_action': 'manual_analysis', 'student_id': '', 'gpa_predicted': np.float64(3.5708276645553925), 'risk_level': 2}
+2025-09-14 18:55:06,014 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:55:12,171 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:55:13,456 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:55:13,519 - __main__ - INFO - Predicción estudiante - GPA: 3.57, Datos: {'Age': 18, 'StudyTimeWeekly': 15.0, 'Absences': 5, 'Tutoring': 1, 'Extracurricular': 1, 'Sports': 1, 'Music': 1, 'Volunteering': 1}
+2025-09-14 18:55:13,912 - __main__ - INFO - Registro estudiante guardado: {'timestamp': datetime.datetime(2025, 9, 14, 18, 55, 13, 912752), 'age': 18, 'study_time': 15.0, 'absences': 5, 'tutoring': 1, 'extracurricular': 1, 'sports': 1, 'music': 1, 'volunteering': 1, 'gpa_predicted': np.float64(3.5708276645553925), 'risk_level': 2}
+2025-09-14 18:55:18,111 - __main__ - INFO - Aplicación iniciada
+2025-09-14 18:55:20,845 - __main__ - INFO - Aplicación iniciada
