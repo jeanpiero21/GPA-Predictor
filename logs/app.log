@@ -22,3 +22,4 @@
 2025-09-14 16:52:43,489 - __main__ - INFO - Registro estudiante guardado: {'timestamp': datetime.datetime(2025, 9, 14, 16, 52, 43, 489337), 'age': 17, 'study_time': 18.5, 'absences': 11, 'tutoring': 1, 'extracurricular': 0, 'sports': 0, 'music': 0, 'volunteering': 0, 'gpa_predicted': np.float64(2.5464389524561954), 'risk_level': 3}
 2025-09-14 16:53:12,072 - __main__ - INFO - Aplicaciï¿½n iniciada
 2025-09-14 16:53:19,559 - __main__ - INFO - Aplicaciï¿½n iniciada
+2025-09-14 17:16:48,392 - __main__ - INFO - Aplicación iniciada
