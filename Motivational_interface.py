@@ -8,6 +8,7 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 from PIL import Image
+import joblib
 
 # Configuración de la página
 st.set_page_config(
@@ -38,7 +39,7 @@ logger.info("Aplicación iniciada")
 def load_model():
     try:
         with open('WeightBestModel.pkl', 'rb') as file:
-            model = pickle.load(file)
+            model = joblib.load(file)
         logger.info("Modelo cargado exitosamente")
         return model
     except Exception as e:
