@@ -94,7 +94,7 @@ Estas variables pueden introducir discriminación histórica o amplificar desigu
 ![Gráfico de Validación Cruzada](ModelComparisonGraph.png)
 
 ### 4.2 Modelo elegido (LinearRegression)
-![Gráfico del mejor modelo](LinearRegression.png)
+![Gráfico del mejor modelo](LinerRegression.png)
 
 
 ---
@@ -210,27 +210,15 @@ La aplicación implementa un sistema de registro (logging) para garantizar trans
 ## 6. Conclusiones
 
 
-- **Modelo simple y transparente:**  
+- **Modelo simple:**  
   La elección de un modelo de regresión lineal permitió mantener la interpretabilidad de las predicciones. Esto es clave en un contexto académico, ya que estudiantes y coordinadores pueden entender fácilmente qué variables influyen en el GPA estimado.
 
-- **Predicción temprana del riesgo académico:**  
-  La herramienta predice de manera oportuna el GPA final de estudiantes de primer semestre, permitiendo identificar con antelación a quienes podrían necesitar apoyo académico y optimizando la asignación de recursos de intervención.
-
-- **Interfaz motivacional y personalizada:**  
-  El diseño de la interfaz evita mensajes desalentadores. En su lugar, entrega mensajes motivacionales y sugerencias prácticas para que cada estudiante pueda mejorar su rendimiento, alineándose con principios de bienestar y acompañamiento.
+- **Predicción fiable del riesgo académico:**  
+  La herramienta predice de manera similar el GPA final de estudiantes de primer semestre, permitiendo identificar a quienes podrían necesitar apoyo académico para con ello solicitar apoyo adicional.
 
 - **Ética y reducción de sesgos:**  
-  Se excluyeron variables sensibles como género, etnicidad y nivel socioeconómico del modelo predictivo para evitar sesgos en las predicciones. Esto refuerza la equidad y transparencia del sistema.
+  Se excluyeron variables como 'Gender', 'Ethnicity','ParentalEducation', 'ParentalSupport' del modelo predictivo para evitar sesgos en las predicciones. Esto permitió obtener un modelo con alto grado de confiabilidad, lo cual se evidenció en la mmtrica R2.
 
-- **Doble vista (Estudiante y Coordinador):**  
-  La interfaz ofrece una experiencia adaptada a cada rol.  
-  - Estudiantes: reciben su GPA estimado, mensajes motivacionales y recomendaciones personalizadas.  
-  - Coordinadores: obtienen reportes de riesgo académico y sugerencias de intervención para grupos o estudiantes específicos.
 
-- **Monitoreo y mejora continua:**  
-  Se implementó un sistema de logging y monitoreo que registra las predicciones, detecta anomalías y permitirá, a futuro, evaluar el desempeño real del modelo (RMSE, MAE, drift de datos). Esto garantiza que la herramienta pueda evolucionar y mantenerse confiable en producción.
-
-- **Impacto esperado:**  
-  Al combinar predicciones transparentes, mensajes positivos y recomendaciones concretas, la herramienta no solo identifica el riesgo académico, sino que también fomenta la motivación y la autogestión del aprendizaje en los estudiantes.
 
 
